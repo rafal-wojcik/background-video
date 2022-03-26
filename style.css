@@ -17,8 +17,9 @@ video {
     position: relative;
     z-index: 1;
     color: #fff;
-    font-size: 50px;
+    font-size: 70px;
     font-weight: 800;
+    text-align: center;
     }
 
 .overlay {
@@ -39,5 +40,67 @@ video {
     height: 100vh;
     }
 
+
+    @media only screen and (max-width: 1300px) {
+        h2 {
+            font-size: 64px;
+        }
+    }
+
+    @media only screen and (max-width: 1200px) {
+        h2 {
+            font-size:60px; 
+        }
+    }
+
+    @media only screen and (max-width: 1050px) {
+        h2 {
+            font-size: 58px;
+        }
+    }
+
+    @media only screen and (max-width: 1000px) {
+        h2 {
+            font-size: 50px;
+        }
+    }
+
+    @media only screen and (max-width: 800px) {
+        h2 {
+            font-size: 44px;
+        }
+    }
+
+    @media only screen and (max-width: 600px) {
+        h2 {
+            font-size: 40px;
+        }
+    }
+
+    @media only screen and (max-width: 550px) {
+        h2 {
+            font-size: 34px;
+        }
+    }
+
+    @media only screen and (max-width: 400px) {
+        h2 {
+            font-size: 30px;
+        }
+    }
+
+    @media only screen and (max-width: 325px) {
+        h2 {
+            font-size: 26px;
+        }
+    }
+
+@media only screen and (max-width: 300px) {
+    h2 {
+        font-size: 24px;
+    }
+} 
+
+    
 
 
